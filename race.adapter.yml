@@ -1,0 +1,12 @@
+name: KFIVE
+description: Get race result
+node_identifier: httpget
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: KFIVE
+    url: https://staging-api.kfive.ru/race/result
+parameters:
+  - raceId
