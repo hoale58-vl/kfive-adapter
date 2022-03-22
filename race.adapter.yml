@@ -1,6 +1,6 @@
 name: KFIVE
 description: Get race result
-node_identifier: httpget
+node_identifier: kfive
 platforms:
   - Docker
   - AWS Lambda
